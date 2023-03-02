@@ -1,0 +1,27 @@
+// Write a public method that accepts a number
+   // 1. Access Modifier
+   // 2. Return Type
+   // 3. Method Name
+   // 4. Parameters
+   // 5. Scope
+
+public string FizzBuzz (int number)
+{
+    var answer = "";
+
+    // When the number is divisable by 3 return the word Fizz
+    if (number % 3 == 0) 
+    {
+        answer = "Fizz";
+    }
+
+    // When the number is divisable by 5 return the word Buzz
+    // If the number is divisable by both 3 & 5 then return the word FizzBuzz
+    if (number % 5 == 0) 
+    {
+        answer += "Buzz";
+    }
+
+    return answer;
+
+}
